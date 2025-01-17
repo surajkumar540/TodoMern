@@ -1,0 +1,72 @@
+# Node modules directory
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Package-lock files (optional, if you prefer to ignore them)
+# Uncomment if you don't want lock files in your repo
+# package-lock.json
+# yarn.lock
+
+# Build output
+/dist
+/build
+/out
+
+# Dependency directories for frontend frameworks (e.g., React/Next.js)
+.next/
+.vite/
+.svelte-kit/
+.nuxt/
+
+# Optional npm cache
+.npm/
+
+# Test coverage
+coverage/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+
+# Git-specific files
+*.patch
+*.diff
+
+# Compiled files
+*.o
+*.out
+*.pyc
+*.class
+*.so
+
+# Static assets
+public/static/*
+!public/static/important-folder/ # Include specific files if needed
